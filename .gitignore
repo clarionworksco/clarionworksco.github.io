@@ -1,0 +1,50 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Local clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# iCloud artifacts
+*.icloud
+
+# Browser-generated files
+*.bak
+.cache/
+
+# Editor / app caches
+.vscode/
+.idea/
+*.psd
+
+# Video & large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.heic
+
+# Google Analytics debug files
+analytics_debug.js
+ga_debug.log
+
+# Node / build (future-proof)
+node_modules/
+dist/
+build/
+
