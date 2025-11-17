@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clarion Works Co</title>
 
-    <!-- Google Font: Inter (clean, professional, excellent spacing) -->
+    <!-- Google Font: Inter (clean, modern, professional spacing) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <style>
-        /* Global Reset */
         * {
             margin: 0;
             padding: 0;
@@ -18,81 +17,112 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            color: #1f1f1f;
-            background-color: #fafafa;
-            line-height: 1.65;
-            letter-spacing: 0.2px;
+            color: #1c1c1c;
+            background-color: #f9f9f9;
+            line-height: 1.55;
+            letter-spacing: 0.15px;
         }
 
-        /* Header */
+        /* HEADER */
         header {
-            background-color: #111;
+            background-color: #0f0f0f;
             color: white;
-            padding: 24px 0;
+            padding: 22px 0;
             text-align: center;
         }
 
         header h1 {
-            font-size: 2rem;
+            font-size: 1.85rem;
             font-weight: 600;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.6px;
         }
 
-        /* Hero Section */
+        /* HERO */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
                         url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=60');
             background-size: cover;
             background-position: center;
-            height: 58vh;
+            height: 55vh;
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             text-align: center;
+            color: white;
             padding: 20px;
-            color: #fff;
         }
 
         .hero h2 {
-            font-size: 2.6rem;
+            font-size: 2.4rem;
             font-weight: 600;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
             letter-spacing: 0.4px;
         }
 
         .hero p {
-            max-width: 720px;
-            font-size: 1.2rem;
+            max-width: 650px;
+            font-size: 1.15rem;
             font-weight: 300;
         }
 
-        /* Main Content */
-        .content {
-            max-width: 860px;
-            margin: 60px auto;
+        /* NEW CLEAN SECTION */
+        .intro {
+            max-width: 780px;
+            margin: 50px auto;
             padding: 0 24px;
+            text-align: center;
         }
 
-        .content h3 {
-            font-size: 1.8rem;
+        .intro h3 {
+            font-size: 1.7rem;
             font-weight: 600;
-            margin-bottom: 16px;
-            letter-spacing: 0.3px;
+            margin-bottom: 18px;
         }
 
-        .content p {
-            font-size: 1.1rem;
-            margin-bottom: 20px;
+        .intro p {
+            font-size: 1.05rem;
+            color: #333;
+            margin-bottom: 12px;
         }
 
-        /* Footer */
+        /* THREE-COLUMN BRAND VALUES */
+        .values {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .value-box {
+            background: white;
+            padding: 22px 26px;
+            border-radius: 10px;
+            width: 220px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+
+        .value-box h4 {
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .value-box p {
+            font-size: 0.95rem;
+            line-height: 1.45;
+            color: #444;
+        }
+
+        /* FOOTER */
         footer {
-            background-color: #111;
+            margin-top: 60px;
+            background-color: #0f0f0f;
             color: #fff;
             text-align: center;
-            padding: 22px 0;
-            margin-top: 60px;
+            padding: 20px 0;
             font-size: 0.9rem;
             letter-spacing: 0.3px;
         }
@@ -107,23 +137,30 @@
 
 <section class="hero">
     <h2>Where Precision Meets Creativity</h2>
-    <p>Clarion Works Co delivers clarity, refinement, and intentional design across every digital project.</p>
+    <p>A modern design firm focused on clarity, structure, and intentional craftsmanship.</p>
 </section>
 
-<section class="content">
-    <h3>Welcome to Clarion Works Co</h3>
-    <p>
-        Clarion Works Co represents a new standard in digital craftsmanship. 
-        Our philosophy is simple: build with purpose, design with intention, 
-        and communicate with clarity.
-    </p>
+<section class="intro">
+    <h3>A Clear Vision, Thoughtfully Crafted</h3>
+    <p>Clarion Works Co builds digital experiences rooted in refinement and purpose.</p>
+    <p>We believe in design that communicates simply, functions cleanly, and feels effortless.</p>
 
-    <p>
-        This website introduces the foundation of our work—clean structure, 
-        thoughtful presentation, and future-forward solutions. As we continue 
-        to expand, you will see this space evolve into a curated set of digital 
-        tools, guides, and creative resources.
-    </p>
+    <div class="values">
+        <div class="value-box">
+            <h4>Clarity</h4>
+            <p>Every choice is deliberate. Every detail serves purpose.</p>
+        </div>
+
+        <div class="value-box">
+            <h4>Craftsmanship</h4>
+            <p>Quality over quantity — always. Precision is our baseline.</p>
+        </div>
+
+        <div class="value-box">
+            <h4>Creativity</h4>
+            <p>Fresh, modern, and meaningful digital expression.</p>
+        </div>
+    </div>
 </section>
 
 <footer>
